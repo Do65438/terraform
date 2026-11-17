@@ -1,0 +1,10 @@
+variable "vpc_cidr_block" {}
+variable "public_subnet_cidr_blocks" {}
+variable "private_subnet_cidr_blocks" {}
+variable "instance_type" {}
+variable "key_name" {}
+variable "vpc_name" {}
+variable "azs" {}
+variable "amis" {}
+variable "aws_region" {}
+variable "environment" {}
